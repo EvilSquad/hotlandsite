@@ -1,0 +1,57 @@
+body {
+    background-color: fff;
+    width: 1600px;
+}
+
+
+.logo {
+    font-family: raleway, sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #2196F3;
+}
+
+
+
+.link, .link:visited {
+
+    font-family: roboto, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.15;
+    text-decoration: none;
+    color: 000;
+}
+
+.link:hover {
+  
+    color: #2196F3;
+  
+}
+
+span {
+    color:black
+}
+
+
+.hero_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+}
+
+
+
+
+footer {
+    background-color: #2F303A;
+
+}
