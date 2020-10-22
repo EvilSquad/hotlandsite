@@ -13,7 +13,43 @@ body {
     color: #2196F3;
 }
 
+.text_info{
+    font-family: roboto, serif; 
+    font-weight: bold; 
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.14;  
+    text-decoration: none;
+    color: black;
+}
 
+.subtext {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #757575;
+}
+
+.central_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.28;
+    color: black;
+}
+
+.info_work {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    color: black;
+   /* пока что чёрный ибо в фигме он белый  */
+}
 
 .link, .link:visited {
 
@@ -32,6 +68,24 @@ body {
   
 }
 
+.worker {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color:black
+}
+
+.worker_info {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: #757575
+}
+
 span {
     color:black
 }
@@ -46,6 +100,16 @@ span {
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
+}
+
+.contact_footer {
+    color: white;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.72;
 }
 
 
