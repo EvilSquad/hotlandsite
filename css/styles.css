@@ -133,6 +133,11 @@ span {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.container {
+    padding-left: 15;
+    padding-top: 15;
+    width: 1200;
+}
 
 
 .text_footer {
@@ -152,6 +157,10 @@ span {
     font-size: 12px;
     line-height: 2;
     color: rgba(255, 255, 255, 0.4);
+}
+
+studiocolor {
+    color: white
 }
 
 footer {
