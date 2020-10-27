@@ -3,6 +3,19 @@ body {
     width: 1600px;
 }
 
+.link_header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #757575;
+    text-decoration: none;
+}
+
+.link_header:hover {
+    color: #2196F3;
+}
 
 .logo {
     font-family: raleway, sans-serif;
@@ -59,7 +72,7 @@ body {
     font-size: 14px;
     line-height: 1.15;
     text-decoration: none;
-    color: 000;
+    color: #000;
 }
 
 .link:hover {
@@ -97,9 +110,7 @@ span {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .contact_footer {
@@ -112,8 +123,36 @@ text-transform: uppercase;
     line-height: 1.72;
 }
 
+.link_info {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.72;
+    color: rgba(255, 255, 255, 0.6);
+}
 
 
+
+.text_footer {
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.createdby {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 2;
+    color: rgba(255, 255, 255, 0.4);
+}
 
 footer {
     background-color: #2F303A;
