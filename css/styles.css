@@ -1,6 +1,9 @@
 body {
     background-color: fff;
     width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
 }
 
 .link_header {
@@ -18,7 +21,25 @@ body {
     color: #2196F3;
 }
 
+.glek {
+    display: flex;
+}
 
+.glek2 {
+    margin-right: 30px;
+}
+
+.glek2:last-child {
+    margin-right: 0px;
+}
+
+.p23 {
+    margin-right: 30px;
+}
+
+.p23:last-child {
+    margin-right: 0px;
+}
 
 .logo {
     font-family: raleway, sans-serif;
@@ -27,7 +48,6 @@ body {
     font-size: 26px;
     line-height: 1.19;
     color: #2196F3;
-    margin-left: 215px;
     margin-right: 86px;
 }
 
@@ -57,6 +77,7 @@ body {
     font-size: 36px;
     line-height: 1.28;
     color: black;
+    text-align: center;
 }
 
 .info_work {
@@ -66,6 +87,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     color: black;
+    display: flex;
    /* пока что чёрный ибо в фигме он белый  */
 }
 
@@ -92,7 +114,8 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    color:black
+    color:black;
+    text-align: center;
 }
 
 .worker_info {
@@ -101,7 +124,9 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    color: #757575
+    color: #757575;
+    text-align: center;
+
 }
 
 span {
@@ -116,6 +141,8 @@ span {
     font-size: 44px;
     line-height: 1.36;
     text-transform: uppercase;
+    margin-left: 477px;
+    margin-right: 477px;
 }
 
 .contact_footer {
@@ -185,6 +212,7 @@ address {
     font-size: 12px;
     line-height: 2;
     color: rgba(255, 255, 255, 0.4);
+    text-align: center;
 }
 
 studiocolor {
