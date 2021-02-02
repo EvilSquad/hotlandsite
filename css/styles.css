@@ -1,6 +1,5 @@
 body {
     background-color: fff;
-    width: 1600px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
@@ -27,9 +26,21 @@ body {
 
 .glek2 {
     margin-right: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
 }
 
 .glek2:last-child {
+    margin-right: 0px;
+}
+
+.glek3 {
+    margin-right: 30px;
+
+}
+
+.glek3:last-child {
     margin-right: 0px;
 }
 
@@ -51,6 +62,11 @@ body {
     margin-right: 86px;
 }
 
+.container_hero {
+    background-image: linear-gradient( to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/Header.png);
+    height: 600px;
+}
+
 .text_info{
     font-family: roboto, serif; 
     font-weight: bold; 
@@ -68,6 +84,10 @@ body {
     font-size: 14px;
     line-height: 1.71;
     color: #757575;
+}
+
+.work {
+    height: 439px;
 }
 
 .central_text {
@@ -118,6 +138,23 @@ body {
     text-align: center;
 }
 
+.box_sp {
+    height: 90px;
+    width: calc((100% - 150px) / 6);
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    margin-right: 30px;
+}
+
+.box_sp:last-child {
+    margin-right: 0px;
+}
+
+.personal_lol {
+    background: #F5F4FA;
+    height: 702px;
+}
+
 .worker_info {
     font-family: Roboto;
     font-style: normal;
@@ -127,6 +164,14 @@ body {
     color: #757575;
     text-align: center;
 
+}
+
+.partner {
+    height: 370px;
+}
+
+.who {
+    height: 574px;
 }
 
 span {
@@ -172,6 +217,16 @@ span {
     margin-right: auto;
     margin-left: auto;
 }
+
+.container1 {
+    padding-left: 15px;
+    padding-top: 15px;
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    display:flex ;
+}
+
 .boom {
     display: flex
 }
@@ -195,6 +250,14 @@ address {
     margin-left: auto;
 }
 
+.glek_5 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row
+    
+}
+
+
 .text_footer {
     color: white;
     font-family: Roboto;
@@ -215,11 +278,22 @@ address {
     text-align: center;
 }
 
+.form_email {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.3);
+    width: 358px;
+    height: 50px;
+}
+
 studiocolor {
     color: white
 }
 
 footer {
     background-color: #2F303A;
-
+    display: flex;
+    flex-direction: row;
 }
