@@ -79,6 +79,11 @@ body {
     width: 1600px;
 }
 
+.container_footer {
+    display: flex;
+    align-items: center;
+}
+
 .text_info{
     font-family: roboto, serif; 
     font-weight: bold; 
@@ -278,7 +283,14 @@ span {
     width: 1170px;
     margin-right: auto;
     margin-left: auto;
-    flex-direction: column;
+}
+
+.footer_ahf {
+    width: 1170px;
+}
+
+.ul_footer {
+    display: flex;
 }
 
 .container_nav {
