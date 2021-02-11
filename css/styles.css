@@ -22,7 +22,6 @@ body {
 
 .glek_footer {
     display: flex;
-    flex-direction: column;
     
 }
 
@@ -43,8 +42,8 @@ body {
 
 .glek3 {
     margin-right: 30px;
-
 }
+
 
 .glek3:last-child {
     margin-right: 0px;
@@ -292,6 +291,14 @@ span {
 }
 
 .container1 {
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    height: 253px;
+}
+
+.container2 {
     padding-left: 15px;
     padding-top: 15px;
     width: 1170px;
@@ -299,7 +306,6 @@ span {
     margin-left: auto;
     display: flex;
     height: 253px;
-    flex-direction: row;
 }
 
 .boom {
