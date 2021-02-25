@@ -133,6 +133,7 @@ body {
     letter-spacing: 0.06em;
     padding-top: 10px;
     padding-bottom: 10px;
+    height: 50px;
 
 }
 
@@ -194,6 +195,10 @@ body {
     color: black;
     display: flex;
    /* пока что чёрный ибо в фигме он белый  */
+}
+
+.footer_kapec {
+    display: flex;
 }
 
 .link {
@@ -354,6 +359,16 @@ span {
     flex-direction: column;
 }
 
+.container9 {
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    height: 253px;
+    flex-direction: column;
+    display: inline-block;
+}
+
 .boom {
     display: flex;
     align-items: center;
@@ -428,6 +443,7 @@ address {
 .email_subs {
     display: flex;
     flex-direction: row;
+    
 }
 
 studiocolor {
