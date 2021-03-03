@@ -176,6 +176,36 @@ body {
     height: 439px;
 }
 
+.icon_class {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 22px;
+    margin-left: 30.5px;
+    margin-right: 30.5px;
+}
+
+.icon_icon {
+    align-items: center;
+    display: flex;
+    margin-right: 11px;
+}
+
+.icon_icon:last-child {
+    margin-right: 0px;
+}
+
+.prikol {
+    height: 20px;
+    width: 20px;
+    fill: currentColor;
+    margin: 12px;
+}
+
+.prikol1 {
+    
+}
+
 .central_text {
     font-family: Roboto;
     font-style: normal;
@@ -199,6 +229,35 @@ body {
 
 .footer_kapec {
     display: flex;
+}
+
+.icons {
+    height: 44px;
+    width: 44px;
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    color: #afb1b8;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.icons2 {
+    height: 44px;
+    width: 44px;
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.icons:hover {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.icons2:hover {
+    background-color: #2196F3;
 }
 
 .link {
