@@ -11,7 +11,7 @@
 
 <body>
    <header> 
-     <section>
+     <section class="header_solid">
       <div class="container_nav">
         <div class= "boom">
           <a class="logo" href="index.html" >Web <span>Studio</span></a> 
@@ -298,30 +298,66 @@
     </h2> 
   <div class="glek_5">
     <div class="box_sp">
-      <li class="icon_icon">
-        <a class="icons_partner">
-           <svg class="prikol1"> 
-             <use href="./images/symbol-defs.svg#icon-logo-1-1"> 
-
+      <li class="icon_icon_partners">
+           <svg class="prikol_1"> 
+             <use href="./images/symbol-defs1.svg#icon-logo-1-1"> 
+    
            </use> 
           </svg>
-        </a>
       </li>
+    </div>
+  <div class="box_sp">
+    <li class="icon_icon_partners">
+         <svg class="prikol_1"> 
+           <use href="./images/symbol-defs.svg#icon-facebook-1"> 
+  
+         </use> 
+        </svg>
+    </li>
+  </div>
+<div class="box_sp">
+  <li class="icon_icon">
+    <a class="icons">
+       <svg class="prikol"> 
+         <use href="./images/symbol-defs.svg#icon-facebook-1"> 
+
+       </use> 
+      </svg>
+    </a>
+  </li>
 </div>
 <div class="box_sp">
-  <img src="." alt="b">
+  <li class="icon_icon">
+    <a class="icons">
+       <svg class="prikol"> 
+         <use href="./images/symbol-defs.svg#icon-facebook-1"> 
+
+       </use> 
+      </svg>
+    </a>
+  </li>
 </div>
 <div class="box_sp">
-  <img src="." alt="c">
+  <li class="icon_icon">
+    <a class="icons">
+       <svg class="prikol"> 
+         <use href="./images/symbol-defs.svg#icon-facebook-1"> 
+
+       </use> 
+      </svg>
+    </a>
+  </li>
 </div>
 <div class="box_sp">
-  <img src="." alt="d">
-</div>
-<div class="box_sp">
-  <img src="." alt="e">
-</div>
-<div class="box_sp">
-  <img src="." alt="f">
+  <li class="icon_icon">
+    <a class="icons">
+       <svg class="prikol"> 
+         <use href="./images/symbol-defs.svg#icon-facebook-1"> 
+
+       </use> 
+      </svg>
+    </a>
+  </li>
 </div>
 </div>
  </section>
@@ -333,7 +369,7 @@
         <div class="container2">
           <a class="logo_footer" href="index.html">Web <studiocolor>Studio</studiocolor></a>
           <address class="contact_footer">
-          <a>г. Киев, Бульвар Леси Украинки, д. 26 </a>
+          <a class="address_office">г. Киев, Бульвар Леси Украинки, д. 26 </a>
           <a class="link_info" href="mailto:info@devstudio.com">info@devstudio.com</a>
           <a class="link_info" href="tel:+380961111111">+38 096 111 11 11</a>
           </address>
@@ -391,3 +427,17 @@
 </footer>
 </body>
 </html>
+
+<script>
+
+  const { height: pageHeaderHeight } = document
+
+    .querySelector(".header_solid")
+
+    .getBoundingClientRect();
+
+
+
+  document.body.style.paddingTop = `${pageHeaderHeight}px`;
+
+</script>

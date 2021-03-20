@@ -14,6 +14,12 @@ body {
     color: #757575;
     text-decoration: none;
     margin-right: 50px;
+    padding-left: 331px;
+}
+
+.link_header:last-child {
+    margin-right: 0px;
+    padding-left: 0px;
 }
 
 .link_header:hover {
@@ -191,6 +197,18 @@ body {
     margin-right: 11px;
 }
 
+.icon_icon_partners {
+    align-items: center;
+    display: flex;
+    margin-right: 11px;
+    width: 170px;
+    height: 90px;
+}
+
+.icon_icon_partners:hover {
+    color: #2196F3;
+}
+
 .icon_partn {
     align-items: center;
     display: flex;
@@ -208,6 +226,30 @@ body {
     width: 20px;
     fill: currentColor;
     margin: 12px;
+}
+
+.prikol_1 {
+    height: 50px;
+    width: 45px;
+    fill: currentColor;
+    margin-left: 63px;
+    display: flex;
+    color: #afb1b8;
+    background: rgba(255, 255, 255, 0.1);
+    
+}
+
+/* .prikol_1:hover {
+    color: #2196F3;
+}    */
+
+
+.partner_svg {
+    height: 45px;
+    width: 50px;
+    fill: currentColor;
+    margin: 12px;
+    align-items: center;
 }
 
 .prikol1 {
@@ -244,6 +286,25 @@ body {
 .icons {
     height: 44px;
     width: 44px;
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    color: #afb1b8;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.icon_partner1 {
+    height: 50px;
+    width: 45px;
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    color: #afb1b8;
+    background: rgba(255, 255, 255, 0.1); 
+}
+.icons_partner1 {
+    height: 50px;
+    width: 45px;
     display: flex;
     border-radius: 50%;
     overflow: hidden;
@@ -312,6 +373,12 @@ body {
     border-radius: 4px;
     border: 1px solid #AFB1B8;
     margin-right: 30px;
+    align-items: center;
+}
+
+.box_sp:hover {
+    border: 1px solid #2196F3;
+    color: #2196F3;
 }
 
 .box_sp:last-child {
@@ -418,6 +485,15 @@ span {
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 24px;
+    padding-right: 15px;
+}
+
+.header_solid {
+    border: 1px solid #ECECEC; 
+    position: fixed;
+    width: 100%;
+    background-color: #f5f5f5;
+    top: 0px;
 }
 
 .container1 {
